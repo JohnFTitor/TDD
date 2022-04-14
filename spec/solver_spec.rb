@@ -17,9 +17,15 @@ describe Solver do
       expect(factorial).to eq 120
     end
 
-		it 'should raise exeception if num is negative' do
+		it 'should raise exception if num is negative' do
 			MESSAGE = "negative value not allowed"
 			expect {@solver.factorial(-1)}.to raise_error(MESSAGE)
 		end
   end
+
+	context 'Reverse Method' do
+		string = @solver.reverse('holle')
+
+		expect(string).to eq 'elloh'
+	end
 end
