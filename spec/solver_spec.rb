@@ -10,5 +10,11 @@ describe Solver do
 
       expect(factorial).to eq 1
     end
+
+    it 'should return 120 if 5 is provided' do 
+      factorial = @solver.factorial(5)
+      
+      expect(factorial).to eq 120
+    end
   end
 end
