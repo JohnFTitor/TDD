@@ -24,7 +24,7 @@ describe Solver do
   end
 
 	context 'Reverse Method' do
-		string = @solver.reverse('holle')
+		string = @solver.reverse_string('holle')
 
 		expect(string).to eq 'elloh'
 	end
