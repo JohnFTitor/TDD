@@ -37,5 +37,23 @@ describe Solver do
 
       expect(fizzbuzz).to eq 'fizz'
     end
+
+    it 'should return buzz when divisible by 5' do 
+      fizzbuzz = @solver.fizzbuzz(25)
+
+      expect(fizzbuzz).to eq 'buzz'
+    end
+
+    it 'should return fizzbuzz when divisible by 5 and 3' do 
+      fizzbuzz = @solver.fizzbuzz(15)
+
+      expect(fizzbuzz).to eq 'buzz'
+    end
+
+    it 'should return num to string in any other case' do 
+      fizzbuzz = @solver.fizzbuzz(7)
+
+      expect(fizzbuzz).to eq '7'
+    end
   end
 end
