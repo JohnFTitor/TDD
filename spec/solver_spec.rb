@@ -26,8 +26,16 @@ describe Solver do
 	context 'Reverse Method' do
     it 'should reverse passed string' do 
 		  string = @solver.reverse_string('holle')
-      
+
 		  expect(string).to eq 'elloh'
     end
 	end
+
+  context 'FizzBuzz Method' do 
+    it 'should return fizz when divisible by 3' do 
+      fizzbuzz = @solver.fizzbuzz(9)
+
+      expect(fizzbuzz).to eq 'fizz'
+    end
+  end
 end
