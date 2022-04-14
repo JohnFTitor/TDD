@@ -9,4 +9,8 @@ class Solver
     end
     factorial
   end
+
+	def reverse_string(string)
+		string.reverse
+	end
 end
