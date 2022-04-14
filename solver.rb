@@ -1,5 +1,9 @@
 class Solver 
   def factorial(num)
-    1
+    factorial = 1
+    (1..num).each do |num| 
+      factorial *= num
+    end
+    factorial
   end
 end
