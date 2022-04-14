@@ -10,6 +10,23 @@
 
 - Ruby
 - Rubocop formatter
+- Bundle
+
+## Getting Started
+
+### Clone this repository
+
+```bash
+$ git clone git@github.com:JohnFTitor/TDD.git
+$ cd TDD
+
+$ bundle install
+
+```
+### To run tests
+```bash
+$ rspec spec/
+```
 
 ## Authors
 
