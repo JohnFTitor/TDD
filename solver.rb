@@ -13,4 +13,9 @@ class Solver
 	def reverse_string(string)
 		string.reverse
 	end
+
+  def fizzbuzz(num)
+    'fizz'
+  end
+
 end
